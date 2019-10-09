@@ -16,6 +16,11 @@ export default {
   components: {
     Header,
     Footer
+  },
+  head() {
+    return {
+      title: `Homepage`
+    }
   }
 }
 </script>
