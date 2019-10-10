@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <div class="container">
+    <div class="container mx-auto">
       I want you to be happier.
     </div>
     <Footer />
