@@ -1,9 +1,10 @@
+// prettier-ignore
 module.exports = {
   theme: {
     extend: {
       colors: {
-        kuru: `#CD3C2A`,
-        kuruDark: `#982618`
+        'kuru': `#CD3C2A`,
+        'kuru-dark': `#982618`
       }
     }
   },
