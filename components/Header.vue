@@ -1,5 +1,7 @@
 <template>
   <header>
-    Header.
+    <div class="container mx-auto">
+      Header
+    </div>
   </header>
 </template>

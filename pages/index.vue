@@ -2,7 +2,7 @@
   <div>
     <Header />
     <div class="container mx-auto">
-      I want you to be happier.
+      Under Maintenance
     </div>
     <Footer />
   </div>
