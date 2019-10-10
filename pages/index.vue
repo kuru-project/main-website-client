@@ -19,7 +19,7 @@ export default {
   },
   head() {
     return {
-      title: `${process.env.siteTitle} - El Psy Congroo!`
+      title: `${process.env.siteTitle} — El Psy Congroo!`
     }
   }
 }
