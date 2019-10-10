@@ -19,7 +19,7 @@ export default {
   },
   head() {
     return {
-      title: `Homepage`
+      title: `${process.env.siteTitle} - El Psy Congroo!`
     }
   }
 }
