@@ -2,7 +2,7 @@
   <div>
     <Header />
     <div class="container mx-auto">
-      Under Maintenance
+      {{ msg }}
     </div>
     <Footer />
   </div>
@@ -21,6 +21,22 @@ export default {
     return {
       title: `${process.env.siteTitle} — El Psy Congroo!`
     }
+  },
+  data() {
+    return {
+      msg: 'testing'
+    }
   }
+  // axios.post('http://api.kuru-anime.com/', {
+  //   email: '...',
+  //   password: '...',
+  //   password_confirmation: '...'
+  // })
+  // .then(function (response) {
+  //   console.log(response);
+  // })
+  // .catch(function (error) {
+  //   console.log(error);
+  // });
 }
 </script>
