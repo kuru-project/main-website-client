@@ -3,6 +3,12 @@
     <Header />
     <div class="container mx-auto">
       {{ msg }}
+      <form>
+        <input placeholder="Email" />
+        <input placeholder="Password" />
+        <input placeholder="Password Confimation" />
+        <button type="submit">Register</button>
+      </form>
     </div>
     <Footer />
   </div>
@@ -24,7 +30,7 @@ export default {
   },
   data() {
     return {
-      msg: 'testing'
+      msg: 'Under Maintenance'
     }
   }
   // axios.post('http://api.kuru-anime.com/', {
