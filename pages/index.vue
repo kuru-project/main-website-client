@@ -2,12 +2,15 @@
   <div>
     <Header />
     <div class="container mx-auto">
-      {{ msg }}
       <form>
-        <input placeholder="Email" />
-        <input placeholder="Password" />
-        <input placeholder="Password Confimation" />
-        <button type="submit">Register</button>
+        <input placeholder="Email" @model="email" />
+        <input type="password" placeholder="Password" @model="password" />
+        <input
+          type="password"
+          placeholder="Password"
+          @model="password_confirmation"
+        />
+        <button type="submit" @click="register">Register</button>
       </form>
     </div>
     <Footer />
@@ -30,8 +33,13 @@ export default {
   },
   data() {
     return {
-      msg: 'Under Maintenance'
+      email: ``,
+      password: ``,
+      password_confirmation: ``
     }
+  },
+  methods: {
+    register: () => {}
   }
   // axios.post('http://api.kuru-anime.com/', {
   //   email: '...',
