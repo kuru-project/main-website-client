@@ -47,8 +47,8 @@ export default {
         .then(function(_response) {
           alert(`You have registered!`)
         })
-        .catch(function(_error) {
-          alert(`Something went wrong!`)
+        .catch(function(error) {
+          alert(error.response.data.errors.full_messages.join(` - `))
         })
     }
   }
