@@ -2,14 +2,25 @@
   <div>
     <Header />
     <div class="container mx-auto">
-      <input v-model="email" placeholder="Email" />
-      <input v-model="password" type="password" placeholder="Password" />
+      <h4>Register</h4>
+      <input v-model="register_email" placeholder="Email" />
       <input
-        v-model="password_confirmation"
+        v-model="register_password"
+        type="password"
+        placeholder="Password"
+      />
+      <input
+        v-model="register_password_confirmation"
         type="password"
         placeholder="Password"
       />
       <button type="submit" @click="register">Register</button>
+    </div>
+    <div class="container mx-auto">
+      <h4>Login</h4>
+      <input v-model="login_email" placeholder="Email" />
+      <input v-model="login_password" type="password" placeholder="Password" />
+      <button type="submit" @click="login">Login</button>
     </div>
     <Footer />
   </div>
@@ -32,23 +43,39 @@ export default {
   },
   data() {
     return {
-      email: ``,
-      password: ``,
-      password_confirmation: ``
+      register_email: ``,
+      register_password: ``,
+      register_password_confirmation: ``,
+      login_email: ``,
+      login_password: ``
     }
   },
   methods: {
+    login() {
+      Axios.post(`${process.env.apiURL}auth/sign_in`, {
+        email: this.login_email,
+        password: this.login_password
+      })
+        .then(function(_response) {
+          alert(`You have logged in!`)
+        })
+        .catch(function(error) {
+          console.log(error.response.data.errors)
+          alert(`Something went wrong! Check your browser logs!`)
+        })
+    },
     register() {
       Axios.post(`${process.env.apiURL}auth/`, {
-        email: this.email,
-        password: this.password,
-        password_confirmation: this.password_confirmation
+        email: this.register_email,
+        password: this.register_password,
+        password_confirmation: this.register_password_confirmation
       })
         .then(function(_response) {
           alert(`You have registered!`)
         })
         .catch(function(error) {
-          alert(error.response.data.errors.full_messages.join(` - `))
+          console.log(error.response.data.errors)
+          alert(`Something went wrong! Check your browser logs!`)
         })
     }
   }
