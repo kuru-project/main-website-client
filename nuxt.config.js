@@ -64,6 +64,7 @@ export default {
     extend(config, ctx) {}
   },
   env: {
-    siteTitle: `Kuru Anime`
+    siteTitle: `Kuru Anime`,
+    apiURL: `http://localhost:3000/`
   }
 }
