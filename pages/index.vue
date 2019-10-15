@@ -41,6 +41,7 @@ export default {
     register() {
       Axios.post(`${process.env.apiURL}auth/`, {
         email: this.email,
+        password: this.password,
         password_confirmation: this.password_confirmation
       })
         .then(function(_response) {
