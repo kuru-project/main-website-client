@@ -38,7 +38,7 @@ export default {
   },
   head() {
     return {
-      title: `${process.env.siteTitleSymbol} — El Psy Congroo!`
+      title: `${process.env.siteTitle} — ${process.env.siteMotto}`
     }
   },
   data() {
