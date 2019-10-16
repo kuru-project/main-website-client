@@ -60,6 +60,7 @@ export default {
           alert(`You have logged in!`)
         })
         .catch(function(error) {
+          // eslint-disable-next-line
           console.log(error.response.data.errors)
           alert(`Something went wrong! Check your browser logs!`)
         })
@@ -74,6 +75,7 @@ export default {
           alert(`You have registered!`)
         })
         .catch(function(error) {
+          // eslint-disable-next-line
           console.log(error.response.data.errors)
           alert(`Something went wrong! Check your browser logs!`)
         })
