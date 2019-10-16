@@ -65,6 +65,7 @@ export default {
   },
   env: {
     siteTitle: `Kuru Anime`,
+    siteTitleSymbol: `くるアニメ`,
     apiURL: `http://localhost:3000/`
   }
 }
