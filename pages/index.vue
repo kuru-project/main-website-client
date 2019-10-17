@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-gray-100">
     <Header />
     <div class="container mx-auto">
       <h4>Register</h4>
