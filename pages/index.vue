@@ -3,29 +3,44 @@
     <Header />
     <section class="flex-1">
       <div class="container mx-auto">
-        <h4>Register</h4>
-        <input v-model="register_email" placeholder="Email" />
+        <h4 :class="label_style.join(' ')">Register</h4>
+        <input
+          v-model="register_email"
+          :class="input_style.join(' ')"
+          placeholder="Email"
+        />
         <input
           v-model="register_password"
+          :class="input_style.join(' ')"
           type="password"
           placeholder="Password"
         />
         <input
           v-model="register_password_confirmation"
+          :class="input_style.join(' ')"
           type="password"
           placeholder="Password"
         />
-        <button type="submit" @click="register">Register</button>
+        <button :class="submit_style.join(' ')" type="submit" @click="register">
+          Register
+        </button>
       </div>
       <div class="container mx-auto">
-        <h4>Login</h4>
-        <input v-model="login_email" placeholder="Email" />
+        <h4 :class="label_style.join(' ')">Login</h4>
+        <input
+          v-model="login_email"
+          :class="input_style.join(' ')"
+          placeholder="Email"
+        />
         <input
           v-model="login_password"
+          :class="input_style.join(' ')"
           type="password"
           placeholder="Password"
         />
-        <button type="submit" @click="login">Login</button>
+        <button :class="submit_style.join(' ')" type="submit" @click="login">
+          Login
+        </button>
       </div>
     </section>
     <Footer />
@@ -53,7 +68,42 @@ export default {
       register_password: ``,
       register_password_confirmation: ``,
       login_email: ``,
-      login_password: ``
+      login_password: ``,
+      input_style: [
+        `appearance-none`,
+        `border`,
+        `focus:outline-none`,
+        `focus:shadow-outline`,
+        `leading-tight`,
+        `mb-5`,
+        `px-3`,
+        `py-2`,
+        `rounded`,
+        `shadow`,
+        `text-gray-700`,
+        `w-full`
+      ],
+      label_style: [
+        `block`,
+        `font-bold`,
+        `mb-5`,
+        `ml-3`,
+        `text-gray-700`,
+        `text-sm`
+      ],
+      submit_style: [
+        `bg-blue-500`,
+        `focus:outline-none`,
+        `focus:shadow-outline`,
+        `font-bold`,
+        `hover:bg-blue-700`,
+        `mb-5`,
+        `ml-3`,
+        `px-4`,
+        `py-2`,
+        `rounded`,
+        `text-white`
+      ]
     }
   },
   methods: {
