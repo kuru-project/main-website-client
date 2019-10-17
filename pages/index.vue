@@ -1,27 +1,33 @@
 <template>
-  <div class="bg-gray-100">
+  <div class="bg-gray-100 flex flex-col min-h-screen">
     <Header />
-    <div class="container mx-auto">
-      <h4>Register</h4>
-      <input v-model="register_email" placeholder="Email" />
-      <input
-        v-model="register_password"
-        type="password"
-        placeholder="Password"
-      />
-      <input
-        v-model="register_password_confirmation"
-        type="password"
-        placeholder="Password"
-      />
-      <button type="submit" @click="register">Register</button>
-    </div>
-    <div class="container mx-auto">
-      <h4>Login</h4>
-      <input v-model="login_email" placeholder="Email" />
-      <input v-model="login_password" type="password" placeholder="Password" />
-      <button type="submit" @click="login">Login</button>
-    </div>
+    <section class="flex-1">
+      <div class="container mx-auto">
+        <h4>Register</h4>
+        <input v-model="register_email" placeholder="Email" />
+        <input
+          v-model="register_password"
+          type="password"
+          placeholder="Password"
+        />
+        <input
+          v-model="register_password_confirmation"
+          type="password"
+          placeholder="Password"
+        />
+        <button type="submit" @click="register">Register</button>
+      </div>
+      <div class="container mx-auto">
+        <h4>Login</h4>
+        <input v-model="login_email" placeholder="Email" />
+        <input
+          v-model="login_password"
+          type="password"
+          placeholder="Password"
+        />
+        <button type="submit" @click="login">Login</button>
+      </div>
+    </section>
     <Footer />
   </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
-  <footer class="bg-gray-700">
-    <div class="text-center text-white py-5 mt-5">
+  <footer class="bg-gray-700 mt-5">
+    <div class="text-center text-white py-5">
       {{ site_title }} &copy; {{ current_year }}
     </div>
   </footer>
