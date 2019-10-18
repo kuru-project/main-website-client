@@ -62,5 +62,11 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
+  },
+  env: {
+    siteTitle: `Kuru Anime`,
+    siteTitleSymbol: `くるアニメ`,
+    siteMotto: `El Psy Congroo!`,
+    apiURL: `http://localhost:3000/`
   }
 }
