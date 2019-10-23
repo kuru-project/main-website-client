@@ -168,6 +168,8 @@
 
 <script>
 import Axios from 'axios'
+import { createSnackbar } from '@snackbar/core'
+import '@snackbar/core/dist/snackbar.css'
 import Header from '~/components/Header.vue'
 import Footer from '~/components/Footer.vue'
 
@@ -197,12 +199,16 @@ export default {
         password: this.login_password
       })
         .then(function(_response) {
-          alert(`You have logged in!`)
+          createSnackbar(`You have logged in!`, {
+            position: 'right'
+          })
         })
         .catch(function(error) {
           // eslint-disable-next-line
           console.log(error.response.data.errors)
-          alert(`Something went wrong! Check your browser logs!`)
+          createSnackbar(`Something went wrong! Check your browser logs!`, {
+            position: 'right'
+          })
         })
     },
     register() {
@@ -212,12 +218,16 @@ export default {
         password_confirmation: this.register_password_confirmation
       })
         .then(function(_response) {
-          alert(`You have registered!`)
+          createSnackbar(`You have registered!`, {
+            position: 'right'
+          })
         })
         .catch(function(error) {
           // eslint-disable-next-line
           console.log(error.response.data.errors)
-          alert(`Something went wrong! Check your browser logs!`)
+          createSnackbar(`Something went wrong! Check your browser logs!`, {
+            position: 'right'
+          })
         })
     }
   }
