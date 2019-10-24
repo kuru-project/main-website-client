@@ -26,6 +26,9 @@ header h1 {
 </style>
 
 <script>
+if (process.client) {
+  require('easter-egg-collection')
+}
 export default {
   data() {
     return {
