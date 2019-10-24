@@ -12,6 +12,3 @@ Steps to Reproduce:
 
 1.
 2.
-
-<!-- Launch with `code --disable-extensions` to check. -->
-Does this issue occur when all extensions are disabled?: Yes/No
