@@ -24,6 +24,7 @@
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/pwa": "^3.0.0-0",
     "@snackbar/core": "^1.7.0",
+    "easter-egg-collection": "^1.4.56",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
