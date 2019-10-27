@@ -33,5 +33,4 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/lyc4n"><img src="https://github.com/lyc4n.png?size=200" width="80px;" alt="Norly Canarias"/><br /><sub><b>Norly Canarias</b></sub></a><br /><a href="https://github.com/kuru-project/main-website-client/commits?author=lyc4n" title="Code">💻</a></td>
   </tr>
 </table>
-
 <!-- ALL-CONTRIBUTORS-LIST:END -->
