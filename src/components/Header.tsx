@@ -35,10 +35,10 @@ interface HeaderProps {
   title: string
 }
 
-const Header: React.FC<HeaderProps> = ({ title }) => (
+const Header: React.FC<HeaderProps> = () => (
   <StyledHeader>
     <HeaderInner>
-      <HomepageLink to="/">{title}</HomepageLink>
+      <HomepageLink to="/">{process.env.TAGLINE}</HomepageLink>
     </HeaderInner>
   </StyledHeader>
 )
