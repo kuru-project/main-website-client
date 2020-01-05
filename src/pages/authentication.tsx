@@ -9,7 +9,15 @@ const AuthenticationPage = () => (
   <IndexLayout>
     <Page>
       <Container>
-        <div>Authentication Page</div>
+        <h2>Authentication Page</h2>
+        <div>
+          <h3>Login</h3>
+          <p>...</p>
+        </div>
+        <div>
+          <h3>Register</h3>
+          <p>...</p>
+        </div>
         <Link to="/">Go back to the homepage</Link>
       </Container>
     </Page>
