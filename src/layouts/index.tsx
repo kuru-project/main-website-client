@@ -34,7 +34,7 @@ const IndexLayout: React.FC = ({ children }) => (
     render={(data: StaticQueryProps) => (
       <LayoutRoot>
         <Helmet
-          title={data.site.siteMetadata.title}
+          title={process.env.TAGLINE}
           meta={[
             { name: 'description', content: data.site.siteMetadata.description },
             { name: 'keywords', content: data.site.siteMetadata.keywords }
