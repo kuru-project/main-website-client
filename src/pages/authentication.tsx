@@ -5,7 +5,7 @@ import Page from '../components/Page'
 import Container from '../components/Container'
 import IndexLayout from '../layouts'
 
-const IndexPage = () => (
+const AuthenticationPage = () => (
   <IndexLayout>
     <Page>
       <Container>
@@ -16,4 +16,4 @@ const IndexPage = () => (
   </IndexLayout>
 )
 
-export default IndexPage
+export default AuthenticationPage
