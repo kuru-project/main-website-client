@@ -10,7 +10,7 @@ const LoginPage = () => (
     <Page>
       <Container>
         <div>
-          <h3>Register</h3>
+          <h3>Login</h3>
           <p>...</p>
         </div>
         <Link to="/">Go back to the homepage</Link>

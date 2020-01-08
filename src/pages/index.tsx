@@ -14,7 +14,9 @@ const IndexPage = () => (
         <p>Now go build something great.</p>
         <Link to="/page-2/">Go to page 2</Link>
         <span> - </span>
-        <Link to="/authentication">Authentication</Link>
+        <Link to="/login">Login</Link>
+        <span> - </span>
+        <Link to="/register">Register</Link>
       </Container>
     </Page>
   </IndexLayout>

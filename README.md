@@ -2,6 +2,11 @@
 
 > Kuru Anime&#39;s Front-end
 
+## Copy the environment variables
+``` bash
+$ cp sample.env.development .env.development
+```
+
 ## Build Setup
 
 ``` bash
