@@ -35,8 +35,8 @@ class LoginPage extends React.Component<State> {
       password
     })
       .then(function(response: any) {
-        sessionStorage.token = response.data.token
-        sessionStorage.user = JSON.stringify(response.data.user)
+        sessionStorage.token = response.headers[`access-token`]
+        sessionStorage.user = JSON.stringify(response.data.data)
       })
       .catch(function(error: any) {
         console.log(error)
