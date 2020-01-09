@@ -38,7 +38,7 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = () => (
   <StyledHeader>
     <HeaderInner>
-      <HomepageLink to="/">{process.env.TAGLINE}</HomepageLink>
+      <HomepageLink to="/">{process.env.REACT_APP_TAGLINE}</HomepageLink>
     </HeaderInner>
   </StyledHeader>
 )
