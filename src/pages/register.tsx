@@ -30,7 +30,7 @@ class RegisterPage extends React.Component<State> {
 
   handleSubmit(event: any) {
     const { email, password }: State = this.state
-    Axios.post(`${process.env.REACT_APP_SERVER_URL}/auth`, {
+    Axios.post(`${process.env.GATSBY_SERVER_URL}/auth`, {
       email,
       password
     })
