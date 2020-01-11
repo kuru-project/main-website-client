@@ -10,7 +10,7 @@ export const addOperationNumber = (operationNumber: any) => ({
 })
 
 // Reducers
-export const currentData = (state: any, action: any) => {
+export const currentData = (state: any = {}, action: any) => {
   switch (action.type) {
     case ADD_OPERATION_NUMBER:
       return state + 1
