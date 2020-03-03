@@ -1,10 +1,10 @@
 # kuru-anime-client
 
-> Kuru Anime&#39;s Front-end
+> Kuru Anime's Front-end
 
 ## Copy the environment variables
 ``` bash
-$ cp sample.env.development .env.development
+$ cp sample.env .env
 ```
 
 ## Build Setup
