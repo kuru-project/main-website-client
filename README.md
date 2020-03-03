@@ -5,6 +5,7 @@
 <!--
   Current Team Members:
   Bos Eriko Reyes (bos.eriko@gmail.com)
+  Dante Black (kaunghein963@gmail.com)
 -->
 
 ## Copy the environment variables
