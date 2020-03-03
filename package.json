@@ -1,17 +1,24 @@
 {
   "name": "main-website-client",
+  "description": "The front-end of Kuru Anime's website",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "pages/index.tsx",
   "license": "MIT",
-  "dependencies": {
-    "next": "^9.2.2",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0"
-  },
+  "private": true,
+  "author": "Bos Eriko Reyes <bos.eriko@gmail.com>",
+  "keywords": [
+    "next",
+    "typescript"
+  ],
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start"
+  },
+  "dependencies": {
+    "next": "^9.2.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
   },
   "devDependencies": {
     "@types/node": "^13.7.7",
