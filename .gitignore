@@ -4,6 +4,9 @@ node_modules
 # Next
 .next
 
+# .env
+.env
+
 # Lock Files
 package-lock.json
 yarn.lock
