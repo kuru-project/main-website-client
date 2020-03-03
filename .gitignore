@@ -1,1 +1,9 @@
+# Node Modules
 node_modules
+
+# Next
+.next
+
+# Lock Files
+package-lock.json
+yarn.lock
