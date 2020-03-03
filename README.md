@@ -2,6 +2,11 @@
 
 > Kuru Anime's Front-end
 
+<!--
+  Current Team Members:
+  Bos Eriko Reyes (bos.eriko@gmail.com)
+-->
+
 ## Copy the environment variables
 ``` bash
 $ cp sample.env .env
