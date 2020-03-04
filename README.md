@@ -6,6 +6,7 @@
   Current Team Members:
   Bos Eriko Reyes (bos.eriko@gmail.com)
   Dante Black (kaunghein963@gmail.com)
+  NeonNature (mustachemaung@gmail.com)
 -->
 
 ## Copy the environment variables
