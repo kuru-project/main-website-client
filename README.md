@@ -40,6 +40,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/BosEriko"><img src="https://github.com/boseriko.png?size=200" width="80px;" alt="Bos Eriko Reyes"/><br /><sub><b>Bos Eriko Reyes</b></sub></a><br /><a href="https://github.com/kuru-project/main-website-client/commits?author=BosEriko" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/lyc4n"><img src="https://github.com/lyc4n.png?size=200" width="80px;" alt="Norly Canarias"/><br /><sub><b>Norly Canarias</b></sub></a><br /><a href="https://github.com/kuru-project/main-website-client/commits?author=lyc4n" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/hitechlife"><img src="https://github.com/hitechlife.png?size=200" width="80px;" alt="Kalpa"/><br /><sub><b>Kalpa</b></sub></a><br /><a href="https://github.com/kuru-project/main-website-client/commits?author=hitechlife" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/NeonNature"><img src="https://github.com/NeonNature.png?size=200" width="80px;" alt="Min Maung Maung"/><br /><sub><b>Min Maung Maung</b></sub></a><br /><a href="https://github.com/kuru-project/main-website-client/commits?author=NeonNature" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Dante-Black"><img src="https://github.com/Dante-Black.png?size=200" width="80px;" alt="Dante Black"/><br /><sub><b>Dante Black</b></sub></a><br /><a href="https://github.com/kuru-project/main-website-client/commits?author=Dante-Black" title="Code">💻</a></td>
   </tr>
 </table>
 <!-- ALL-CONTRIBUTORS-LIST:END -->
