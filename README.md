@@ -7,6 +7,7 @@
   Bos Eriko Reyes (bos.eriko@gmail.com)
   Dante Black (kaunghein963@gmail.com)
   NeonNature (mustachemaung@gmail.com)
+  Anna Marie Sabandal (annamariejsabandal@@gmail.com)
 -->
 
 ## Copy the environment variables
