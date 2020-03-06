@@ -2,14 +2,6 @@
 
 > Kuru Anime's Front-end
 
-<!--
-  Current Team Members:
-  Bos Eriko Reyes (bos.eriko@gmail.com)
-  Dante Black (kaunghein963@gmail.com)
-  NeonNature (mustachemaung@gmail.com)
-  Anna Marie Sabandal (annamariejsabandal@@gmail.com)
--->
-
 ## Copy the environment variables
 ``` bash
 $ cp sample.env .env
