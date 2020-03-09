@@ -6,6 +6,9 @@ function HomePage() {
       <Head>
         <title>Kuru Anime Title</title>
       </Head>
+      <div>
+        Under Maintenance
+      </div>
     </div>
   )
 }
