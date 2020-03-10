@@ -18,6 +18,9 @@
     "deploy": "npm run build && npm run export"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/react-fontawesome": "^0.1.9",
     "next": "^9.2.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
