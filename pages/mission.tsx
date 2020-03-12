@@ -1,5 +1,16 @@
+import Head from 'next/head'
+
 function MissionPage() {
-  return <div>Mission Page</div>
+  return (
+    <div>
+      <Head>
+        <title>Mission - Kuru Anime</title>
+      </Head>
+      <div>
+        Mission
+      </div>
+    </div>
+  )
 }
 
 export default MissionPage
