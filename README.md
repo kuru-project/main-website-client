@@ -21,7 +21,7 @@ $ yarn build
 $ yarn start
 ```
 
-For detailed explanation on how things work, check out [Next.js docs](https://nextjs.org).
+For detailed explanation on how things work, check out [Next.js docs](https://nextjs.org). Please check out the [style guide](https://github.com/airbnb/javascript) as well.
 
 ## Contributors ✨
 
