@@ -3,7 +3,8 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import OpenGraphMeta from '../components/OpenGraphMeta';
 import TwitterMeta from '../components/TwitterMeta';
-import Head from 'next/head'
+import Head from 'next/head';
+import 'antd/dist/antd.css';
 
 function MyApp({ Component, pageProps }) {
   return (
