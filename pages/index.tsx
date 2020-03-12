@@ -4,10 +4,10 @@ function HomePage() {
   return (
     <div>
       <Head>
-        <title>Kuru Anime Title</title>
+        <title>Kuru Anime - Anime Social Network</title>
       </Head>
       <div>
-        Under Maintenance
+        Homepage
       </div>
     </div>
   )
