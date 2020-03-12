@@ -1,10 +1,20 @@
 // import App from 'next/app'
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import OpenGraphMeta from '../components/OpenGraphMeta';
+import TwitterMeta from '../components/TwitterMeta';
+import Head from 'next/head'
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
+      <Head>
+        <meta name="description" content="Anime social network for all your needs!" />
+        <link rel="icon" type="image/x-icon" href="https://example.com/favicon.ico" />
+        <link rel="icon" type="image/png" href="https://example.com/favicon.png" />
+        <OpenGraphMeta />
+        <TwitterMeta />
+      </Head>
       <Header />
       <Component {...pageProps} />
       <Footer />
