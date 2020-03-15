@@ -10,6 +10,7 @@ function Navigation() {
       <li><Link href="/vision"><a>Vision</a></Link></li>
       <li><Link href="/team"><a>Team</a></Link></li>
       <li><Link href="/rules/discord"><a>Discord Rules</a></Link></li>
+      <li><Link href="/bot"><a>Bot</a></Link></li>
     </ul>
   )
 }
