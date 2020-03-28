@@ -1,8 +1,9 @@
 // import App from 'next/app'
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import OpenGraphMeta from '../components/OpenGraphMeta';
-import TwitterMeta from '../components/TwitterMeta';
+import Header from '@kuru/components/Header';
+import Footer from '@kuru/components/Footer';
+import OpenGraphMeta from '@kuru/components/OpenGraphMeta';
+import TwitterMeta from '@kuru/components/TwitterMeta';
+
 import Head from 'next/head';
 import 'antd/dist/antd.css';
 
