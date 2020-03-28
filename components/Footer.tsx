@@ -1,5 +1,5 @@
-import SocialMedia from './SocialMedia';
-import Navigation from './Navigation';
+import SocialMedia from '@kuru/components/SocialMedia';
+import Navigation from '@kuru/components/Navigation';
 
 function Footer() {
   return (
