@@ -7,6 +7,9 @@ import TwitterMeta from '@kuru/components/TwitterMeta';
 import Head from 'next/head';
 import 'antd/dist/antd.css';
 
+import { Layout as LayoutAnt } from 'antd';
+const { Content: ContentAnt } = LayoutAnt;
+
 function MyApp({ Component, pageProps }) {
   return (
     <>
@@ -17,9 +20,13 @@ function MyApp({ Component, pageProps }) {
         <OpenGraphMeta />
         <TwitterMeta />
       </Head>
-      <Header />
-      <Component {...pageProps} />
-      <Footer />
+      <LayoutAnt>
+        <Header />
+        <ContentAnt>
+          <Component {...pageProps} />
+        </ContentAnt>
+        <Footer />
+      </LayoutAnt>
     </>
   )
 }
