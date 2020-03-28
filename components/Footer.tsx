@@ -6,12 +6,10 @@ const { Footer: FooterAnt } = LayoutAnt;
 
 function Footer() {
   return (
-    <FooterAnt>
-      <footer>
-        footer
-        <Navigation />
-        <SocialMedia />
-      </footer>
+    <FooterAnt style={{ textAlign: 'center', backgroundColor: '#CFCFCF', color: 'white' }}>
+      <div>Kuru Anime &copy; {new Date().getFullYear()}</div>
+      <Navigation />
+      <SocialMedia />
     </FooterAnt>
   )
 }
