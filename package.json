@@ -17,7 +17,7 @@
     "export": "next export",
     "deploy": "npm run build && npm run export",
     "pretty": "pretty-quick",
-    "lint": "eslint ."
+    "check:syntax": "eslint components/** pages/**"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
