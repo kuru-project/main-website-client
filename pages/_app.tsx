@@ -1,14 +1,19 @@
-// import App from 'next/app'
+// ANCHOR Components
 import Header from '@kuru/components/Header';
 import Footer from '@kuru/components/Footer';
 import OpenGraphMeta from '@kuru/components/OpenGraphMeta';
 import TwitterMeta from '@kuru/components/TwitterMeta';
 
+// ANCHOR Utilities
 import Head from 'next/head';
+
+// ANCHOR Ant Style
 import 'antd/dist/antd.css';
 
 import { Layout as LayoutAnt } from 'antd';
 const { Content: ContentAnt } = LayoutAnt;
+
+import '../styles.css';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -30,17 +35,5 @@ function MyApp({ Component, pageProps }) {
     </>
   )
 }
-
-// Only uncomment this method if you have blocking data requirements for
-// every single page in your application. This disables the ability to
-// perform automatic static optimization, causing every page in your app to
-// be server-side rendered.
-//
-// MyApp.getInitialProps = async (appContext) => {
-//   // calls page's `getInitialProps` and fills `appProps.pageProps`
-//   const appProps = await App.getInitialProps(appContext);
-//
-//   return { ...appProps }
-// }
 
 export default MyApp
