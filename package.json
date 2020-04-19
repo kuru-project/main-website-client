@@ -11,11 +11,11 @@
     "typescript"
   ],
   "scripts": {
-    "dev": "next",
+    "dev": "NODE_ENV=development next",
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "deploy": "npm run build && npm run export",
+    "deploy": "NODE_ENV=production npm run build && npm run export",
     "pretty": "pretty-quick",
     "check:syntax": "eslint components/** pages/**"
   },
@@ -39,6 +39,7 @@
     "eslint-plugin-import": "2.20.1",
     "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-react": "7.19.0",
+    "next-images": "^1.4.0",
     "prettier": "^2.0.2",
     "pretty-quick": "^2.0.1",
     "tailwindcss": "^1.2.0",

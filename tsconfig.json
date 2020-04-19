@@ -19,8 +19,12 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "@kuru/components/*": ["components/*"],
-      "@kuru/pages/*": ["pages/*"]
+      "@kuru/components/*": [
+        "components/*"
+      ],
+      "@kuru/pages/*": [
+        "pages/*"
+      ]
     }
   },
   "exclude": [
